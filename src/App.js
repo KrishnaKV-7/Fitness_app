@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Route , Routes } from 'react-router-dom';
 import { Box } from '@mui/material';
 
@@ -9,8 +9,8 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
 
-const App = () => {
-  return (
+const App = () => (
+  
     <Box width="400px" sx={{ width: {x1: '1488px'}}} m="auto">
         <Navbar />
         <Routes>
@@ -19,7 +19,7 @@ const App = () => {
         </Routes>
         <Footer />
     </Box>
-  )
-}
+  );
+
 
 export default App
