@@ -3,7 +3,7 @@ import { Route , Routes } from 'react-router-dom';
 import { Box } from '@mui/material';
 
 import './App.css';
-import ExcerciseDetail from './Pages/ExcerciseDetail';
+import ExerciseDetail from './Pages/ExerciseDetail';
 import Home from './Pages/Home';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
@@ -15,11 +15,11 @@ const App = () => (
         <Navbar />
         <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="/excercise/:id" element={<ExcerciseDetail />} />
+            <Route path="/exercise/:id" element={<ExerciseDetail />} />
         </Routes>
         <Footer />
     </Box>
   );
 
 
-export default App
+export default App;
