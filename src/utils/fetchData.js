@@ -3,7 +3,7 @@ export const exerciseOptions = {
     
     headers: {
       'content-type': 'application/octet-stream',
-      'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+      'X-RapidAPI-Key': '',
       'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
     }
   };
@@ -15,4 +15,3 @@ export const fetchData = async (url, options) => {
 
     return data;
 
-}

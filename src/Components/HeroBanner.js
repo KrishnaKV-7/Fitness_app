@@ -2,6 +2,10 @@ import React from 'react';
 import { Box, Typography ,Button } from '@mui/material';
 
 import HerobannerImage from '../assets/images/websitebanner.png';
+//import Exercises from './Exercises';
+
+
+
 
 const HeroBanner = () => {
   return (
@@ -16,7 +20,7 @@ const HeroBanner = () => {
       Never Stay at the Same Level
       </Typography>
       
-      <Button variant ="contained" color= "error" href="#exercises" sx={{ backgroundColor: '#ff2625', padding: '10px'}}>
+      <Button  variant ="contained" color= "error" href="#Exercises" sx={{ backgroundColor: '#ff2625', padding: '10px'}}>
         Explore Workouts
       </Button>
       <Typography fontWeight={600} color="#FF2625" sx={{ opacity: '0.2', display: { lg: 'block', xs: 'none' }, fontSize: '200px' }}>
